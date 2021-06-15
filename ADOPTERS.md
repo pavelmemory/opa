@@ -18,8 +18,8 @@ production users that have added themselves (in alphabetical order):
   and maintains some OPA related tools and libraries, primarily to help
   integrate OPA in the Java/JVM ecosystem, [see `github.com/Bisnode`](https://github.com/Bisnode).
 
-* [bol.com](https://www.bol.com/) uses OPA for a mix of
-  validating and mutating admission control use cases in their
+* [bol.com](https://www.bol.com/) uses OPA for a mix of validating
+  and mutating admission control use cases in their
   Kubernetes clusters. Use cases include patching image pull secrets,
   load balancer properties, and tolerations based on contextual
   information stored on namespaces. OPA is deployed on multiple
