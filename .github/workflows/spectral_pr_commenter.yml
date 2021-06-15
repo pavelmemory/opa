@@ -1,0 +1,17 @@
+name: spectral-pr-commenter
+on:
+  pull_request:
+jobs:
+  spectral:
+    name: spectral PR commenter
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@master
+
+      - name: spectral
+        uses: pavelmemory/spectral-pr-commenter-github@main
+        with:
+          github_token: ${{ github.token }}
+
